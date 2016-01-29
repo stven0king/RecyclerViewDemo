@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:gravity="center"
+    android:background="@color/gainsboro">
+    <TextView
+        android:id="@+id/linear_activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LinearHomeActivity"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/azure"/>
+
+    <TextView
+        android:id="@+id/grid_activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GridHomeActivity"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/azure"/>
+
+    <TextView
+        android:id="@+id/staggered_activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="StaggeredHomeActivity"
+        android:gravity="center"
+        android:background="@color/azure"/>
+</LinearLayout>
