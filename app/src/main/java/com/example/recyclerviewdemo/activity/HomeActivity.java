@@ -37,5 +37,12 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, StaggeredHomeActivity.class));
             }
         });
+
+        findViewById(R.id.refresh_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, RefreshLLActivity.class));
+            }
+        });
     }
 }

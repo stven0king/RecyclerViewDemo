@@ -31,5 +31,14 @@
         android:layout_height="50dp"
         android:text="StaggeredHomeActivity"
         android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/azure"/>
+
+    <TextView
+        android:id="@+id/refresh_activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RefreshLLActivity"
+        android:gravity="center"
         android:background="@color/azure"/>
 </LinearLayout>
